@@ -1,0 +1,217 @@
+/*******************************************************
+***       Coded by Hasibul Hasan                     ***
+***       hasibul.pbn@gmail.com                      ***
+***       https://www.facebook.com/cbHasib           ***
+***       https://github.com/cbHasib                 ***
+***                                                  ***
+*******************************************************/
+
+
+
+/*============= Basic Style Start =============*/
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0%;
+}
+
+/*============= Basic Style End =============*/
+
+
+
+
+
+/*============= Color Start =============*/
+.accent {
+    color: #FF5959;
+    ;
+}
+
+.text-grey {
+    color: #707070;
+}
+
+.text-light-grey {
+    color: #B3B3B3;
+}
+
+
+/*============= Color Start =============*/
+
+
+
+
+
+/*============= Common Class Style Start =============*/
+
+
+.button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background: #FF5959;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+
+.text-padding {
+    padding: 0% 30% 0% 30%;
+
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 0% 5%;
+    text-align: center;
+}
+
+
+.flexible {
+    display: flex;
+    margin: 4% 0% 0%;
+}
+
+.text-center{
+    text-align: center;
+}
+/*============= Common Class Style End =============*/
+
+
+
+
+
+
+
+/*============= Hero Section Style Start =============*/
+
+#hero {
+    display: flex;
+    width: 100%;
+    height: 680px;
+    background-image: url(/assets/images/donation-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 20%;
+    text-align: center;
+}
+
+.bg-overlay {
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+}
+
+.hero-heading {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-sub-text {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+/*============= Hero Section Style End =============*/
+
+
+
+
+/*============= Donate Today Section Style Start =============*/
+
+#donate-today {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.amount-box {
+    display: flex;
+    width: auto;
+    margin: 1% 0%;
+    justify-content: center;
+}
+
+.amount-box-item {
+    padding: 25px 10px;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px 20px;
+}
+
+#amount-active {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+}
+
+.custom-amount {
+    margin-bottom: 30px;
+}
+
+.custom-amount-input {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 8px 15%;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+}
+
+/*============= Donate Today Section Style End =============*/
+
+
+
+
+/*============= Donate Plan Section Style Start =============*/
+
+#donate-plan {
+    padding: 0% 10% 5%;
+}
+
+.donate-plan-item {
+    padding: 4% 2%;
+    width: 31%;
+    margin: 0% 1%;
+}
+
+#food {
+    background: #4F9DA61A;
+}
+
+#shelter {
+    background: #FF59591A;
+}
+
+#education {
+    background: #FFF4D6;
+}
+
+/*============= Donate Plan Section Style End =============*/
