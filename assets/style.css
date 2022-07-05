@@ -282,6 +282,11 @@ h2 {
     justify-content: center;
 }
 
+.newsletter-box input:focus {
+    outline: none;
+    color: #494949;
+}
+
 
 /*============= Newsletter Section Style End =============*/
 
