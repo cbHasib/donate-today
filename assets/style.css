@@ -86,9 +86,10 @@ h2 {
     margin: 4% 0% 0%;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
+
 /*============= Common Class Style End =============*/
 
 
@@ -116,7 +117,7 @@ h2 {
     justify-content: center;
     padding: 5% 20%;
     text-align: center;
-    
+
 }
 
 .bg-overlay {
@@ -203,18 +204,119 @@ h2 {
     padding: 6% 2%;
     width: 31%;
     margin: 0% 1%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
 }
 
 #food {
     background: #4F9DA61A;
+    border: 1px solid #4F9DA65a;
 }
 
 #shelter {
     background: #FF59591A;
+    border: 1px solid #ff59595a;
 }
 
 #education {
     background: #FFF4D6;
+    border: 1px solid #dfaa1785;
 }
 
 /*============= Donate Plan Section Style End =============*/
+
+
+
+
+
+
+
+
+
+
+
+/*============= Newsletter Section Style Start =============*/
+
+#newsletter {
+    padding: 5% 4%;
+    background: #ececec;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-box {
+    padding: 6% 2%;
+    width: 100%;
+    margin: 0% 15%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    background-color: #FFF4D6;
+    align-items: center;
+}
+
+.newsletter-box a {
+    display: inline;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background: #FF5959;
+    color: white;
+    text-decoration: none;
+    padding: 18px 50px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+}
+
+.newsletter-box input {
+    display: inline;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #AA9F9F;
+    background: #D9D9D9;
+    padding: 21px 60px 18px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*============= Newsletter Section Style End =============*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*============= Footer Section Style Start =============*/
+
+footer {
+    text-align: center;
+    background-color: #121212;
+    padding: 30px;
+    margin: 0%;
+}
+
+footer h3 {
+    color: #FF5959;
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0%;
+}
+
+footer p {
+    margin: 0%;
+    color: #707070;
+}
+
+
+/*============= Footer Section Style End =============*/
