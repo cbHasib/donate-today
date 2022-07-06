@@ -46,6 +46,9 @@ h2 {
     color: #B3B3B3;
 }
 
+.bg-grey{
+    background: #ececec;
+}
 
 /*============= Color Start =============*/
 
@@ -83,7 +86,8 @@ h2 {
 
 .flexible {
     display: flex;
-    margin: 4% 0% 0%;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-center {
@@ -207,7 +211,10 @@ h2 {
 
 #donate-plan {
     padding: 5% 10%;
-    background: #ececec;
+}
+
+.item-padding{
+    padding: 2% 0%;
 }
 
 .donate-plan-item {
@@ -239,7 +246,85 @@ h2 {
 
 
 
+/*============= Container Section Style Start =============*/
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 4% 10%;   
+}
+
+.half-width{
+    width: 50%;
+}
+
+.half-width img{
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+/*============= Container Section Style Start =============*/
+
+
+
+
+
+
+
+/*============= Help Section Style Start =============*/
+
+#help{
+
+    justify-content: center;
+    align-items: center; 
+    background-image: url(images/donation3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content{
+        padding: 4% 10%;
+        background: #121212d9;
+
+}
+
+#help-heading{
+    color: white;
+    text-align: center;
+}
+#help-sub-text{
+    color: #cbcbcb;
+    text-align: center;
+}
+
+.help-box{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.help-item{
+    width: 25%;
+    background: rgba(3, 3, 3, 0.3);
+    padding: 3% 2%;
+    margin: 1%;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.help-item h4{
+    color: white;
+    font-size: 20px;
+}
+.help-item p{
+    color: #cbcbcb;
+}
+
+/*============= Help Section Style End =============*/
 
 
 
@@ -249,7 +334,6 @@ h2 {
 
 #newsletter {
     padding: 5% 4%;
-    background: #ececec;
     justify-content: center;
     align-items: center;
 }
