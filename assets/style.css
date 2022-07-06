@@ -154,7 +154,7 @@ h2 {
     font-size: 18px;
     color: white;
     text-align: center;
-    padding: 0% 12%;
+    padding: 0% 8%;
 }
 
 /*============= Hero Section Style End =============*/
@@ -323,7 +323,6 @@ h2 {
 .content{
         padding: 4% 10%;
         background: #121212d9;
-
 }
 
 #help-heading{
@@ -376,6 +375,69 @@ h2 {
 
 
 
+
+
+/*============= Gallery Section Style Start =============*/
+
+#gallery{
+    justify-content: center;
+    align-items: center; 
+    padding: 5% 0%;
+}
+.gallery-content{
+    padding: 0px 3% 0px;
+}
+
+#gallery-heading{
+    color: black;
+    text-align: center;
+}
+#gallery-sub-text{
+    color: #707070;
+    text-align: center;
+}
+
+.gallery-box{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.gallery-item{
+    width: 25%;
+    margin: 0% .75% 1%;
+
+}
+
+.gallery-item img{
+    width: 100%;
+    margin: 1%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    filter: saturate(0);
+    transition-duration: 450ms;
+}
+
+.gallery-item img:hover{
+    box-shadow: 0px 10px 20px 0px rgba(55, 55, 55, 0.4);
+    filter: none;
+    transition-duration: 450ms;
+}
+
+
+
+
+
+
+
+
+
+/*============= Gallery Section Style End =============*/
+
+
+
+
+
 /*============= Newsletter Section Style Start =============*/
 
 #newsletter {
@@ -412,7 +474,7 @@ h2 {
 }
 
 .newsletter-box a:hover{
-    background: transparent;
+    background: #D9D9D9;
     color: #FF5959;
     border: 2px solid #FF5959;
     transition-duration: 400ms;
