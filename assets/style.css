@@ -315,14 +315,14 @@ h2 {
 
     justify-content: center;
     align-items: center; 
-    background-image: url(images/donation3.jpg);
+    background-image: url(images/help-section-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 .content{
         padding: 4% 10%;
-        background: #121212d9;
+        background: #121212c8;
 }
 
 #help-heading{
@@ -342,7 +342,7 @@ h2 {
 
 .help-item{
     width: 25%;
-    background: rgba(3, 3, 3, 0.3);
+    background: rgba(3, 3, 3, 0.4);
     padding: 3% 2%;
     margin: 1%;
     text-align: center;
@@ -355,7 +355,7 @@ h2 {
 .help-item:hover{
     border: 2px solid #FF5959;
     box-shadow: 0px 5px 25px 0px rgba(145, 0, 0, 0.3);
-    background: rgba(3, 3, 3, 0.4);
+    background: rgba(3, 3, 3, 0.6);
     transition-duration: 300ms;
 }
 
